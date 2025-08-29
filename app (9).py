@@ -546,7 +546,7 @@ def calculate_final_score(sector_data, secteur_type="standard"):
     
     return scores_df
 # Barre latérale
-st.sidebar.image("/content/Al_Barik_Bank_logo.png", use_container_width=True)
+st.sidebar.image("Al_Barik_Bank_logo.png", use_container_width=True)
 with st.sidebar:
     st.header(" Informations")
     st.markdown("""
@@ -1541,4 +1541,5 @@ with tab6:
         - 🏦 **AL_BARID_Donnees** : Données des émetteurs AL BARID BANK
         - 🏦 **AL_BARID_Scores** : Scores des émetteurs AL BARID BANK
         """)
+
 
